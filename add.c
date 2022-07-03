@@ -6,6 +6,7 @@ main()
   printf(" enter a number");
   scanf("%d",&a):
   printf("\n enter another number for addition");
-  printf("sum of %d and %d is %d",a,b,c);
+  scanf("%d",&b);
+  printf("sum of %d and %d is %d",a,b,a+b);
   getch():
 }
